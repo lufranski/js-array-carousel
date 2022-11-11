@@ -5,7 +5,7 @@
 
 .pic {
     max-width: 100%;
-    display: none;
+    /* display: none; */
 }
 
 .pic img {
