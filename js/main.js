@@ -49,6 +49,11 @@ nextButton.addEventListener('click' ,
             // Aggiungo la classe active all'elemento successivo
             arrayPics[activeItem].classList.add('active');
 
+            if (activeItem === arrayPics.length - 1) {
+
+                nextButton.classList.add('hidden');
+
+            }
 
         }
 

@@ -18,6 +18,8 @@
     display: block;
 }
 
+
+
 #next {
     border-radius: 50%;
     background-color: #B2B2B2;
@@ -32,5 +34,9 @@
 #next:hover {
     background-color: #3C4048;
     color: #fff;
+}
+
+.hidden {
+    display: none;
 }
 
