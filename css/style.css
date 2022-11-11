@@ -1,3 +1,7 @@
+body{
+    background-color: #D6E4E5;
+}
+
 #carousel {
     width: 500px;
     margin: 20px auto;
@@ -5,13 +9,17 @@
 }
 
 .pic {
-    max-width: 100%;
+    width: 500px;
+    height: 300px;
     display: none;
 }
 
 .pic img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 500px;
+    height: 300px;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .active {
@@ -20,20 +28,28 @@
 
 
 
-#next {
+.navbtn {
     border-radius: 50%;
-    background-color: #B2B2B2;
+    background-color: rgba(214, 228, 229, 0.7);
     position: absolute;
-    bottom: 10px;
-    right: 49%;
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
-    color: #3C4048;
+    color: #497174;
 }
 
-#next:hover {
-    background-color: #3C4048;
-    color: #fff;
+#next {
+    bottom: 10px;
+    right: 49%;
+}
+
+#prev {
+    top: 10px;
+    right: 49%;
+}
+
+.navbtn:hover {
+    background-color: rgb(73, 113, 116);
+    color: #EB6440;
 }
 
 .hidden {
